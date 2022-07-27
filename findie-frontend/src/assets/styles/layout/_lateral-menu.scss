@@ -1,0 +1,20 @@
+.rotated-text {
+  position: fixed !important;
+  bottom: 255px;
+  left: -130px;
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 800px) {
+  .rotated-text {
+    position: absolute !important;
+    bottom: 995px;
+    right: -850px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .rotated-text {
+    display: none;
+  }
+}

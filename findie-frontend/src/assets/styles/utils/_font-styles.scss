@@ -1,0 +1,61 @@
+@mixin text-color($color) {
+  color: $color !important;
+}
+
+.text {
+  &-black {
+    @include text-color(var(--black));
+  }
+  &-white {
+    @include text-color(var(--white));
+  }
+  &-red {
+    @include text-color(var(--red));
+  }
+  &-soft-green {
+    @include text-color(var(--soft-green));
+  }
+  &-sky-blue {
+    @include text-color(var(--sky-blue));
+  }
+  &-sea-blue-096 {
+    @include text-color(var(--sea-blue-096));
+  }
+  &-sea-blue {
+    @include text-color(var(--sea-blue));
+  }
+  &-blue {
+    @include text-color(var(--blue));
+  }
+  &-rose {
+    @include text-color(var(--rose));
+  }
+  &-strong-rose {
+    @include text-color(var(--strong-rose ));
+  }
+  &-soft-blue {
+    @include text-color(var(--soft-blue));
+  }
+  &-orange {
+    @include text-color(var(--orange));
+  }
+  &-yellow {
+    @include text-color(var(--yellow));
+  }
+  &-light-gray {
+    @include text-color(var(--light-gray));
+  }
+  &-soft-gray {
+    @include text-color(var(--soft-gray));
+  }
+  &-gray {
+    @include text-color(var(--gray));
+  }
+  &-gradient-1 {
+    background: -webkit-linear-gradient(152deg, rgba(255,136,70,1) 13%, rgba(118,173,255,1) 42%, rgba(118,173,255,1) 54%, rgba(255,168,246,1) 77%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+  }
+}
+

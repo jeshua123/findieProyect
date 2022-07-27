@@ -1,0 +1,52 @@
+:root {
+  //Breackpoints
+  --sm: 640px;
+  --md: 768px;
+  --lg: 1024px;
+  --xl: 1280px;
+  
+  //Palette
+  --black: #000000;
+  --light-black: #171515;
+  --black-02: rgba(0, 0, 0, 0.2);
+  --black-008: rgba(0, 0, 0, 0.08);
+  --black-005: rgba(0, 0, 0, 0.05);
+  
+  --white: #ffffff;
+  --white-04: rgba(255, 255, 255, 0.9);
+  --white-gray: #e0e0e0;
+
+  --dark-orange: #f89500;
+  --orange: #ffa51f;
+  --soft-orange: #ffebd8;
+  --light-orange: #ffe0c1;
+  --light-orange2: #FFF7EF;
+
+  --yellow: #ffbb1f;
+
+  --strong-rose: #FFC0F9;
+  --rose: #ffe7e8;
+
+  --red: #fb4e00;
+  --red-005: rgba(251, 78, 0, 0.05);
+
+  --ice-blue: #F4F9FF;
+  --light-blue: #85b6ff;
+  --light-blue-03: rgba(88, 163, 216, 0.3);
+  --blue: #64a2fe;
+  --blue-005: rgba(100, 162, 254, 0.05);
+  --sea-blue: #00638d;
+  --duo-2: #016A97;
+  --sea-blue-096: rgba(0, 99, 141, 0.96);
+  --soft-blue: #58A3D8;
+  --sky-blue: #73acd4;
+  --sky-blue-03: rgba(115, 172, 212, 0.3);
+
+  --soft-green: #2ec68f;
+
+  --light-gray: #E1E1E1;
+  --gray: #444040;
+  --soft-gray: #bdbdbd;
+  --gray-05: rgba(0, 0, 0, 0.5);
+  --gray-026: rgba(206, 204, 204, 0.26);
+}

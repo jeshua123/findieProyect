@@ -1,0 +1,32 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@import './abstrac/mixin.scss';
+
+@import './base/typography.scss';
+@import './base/root.scss';
+@import './base/html-core.scss';
+
+@import "./components/intro-section.scss";
+@import "./components/our-freelancers.scss";
+@import "./components/our-clients.scss";
+@import './components/suscription-form.scss';
+@import "./components/wizard.scss";
+
+@import './layout/web-site-layout.scss';
+@import './layout/lateral-menu.scss';
+
+@import './utils/font-styles.scss';
+@import './utils/svg-styles.scss';
+@import './utils/animations.scss';
+@import './utils/forms.scss';
+@import './utils/borders.scss';
+@import './utils/bg-colors.scss';
+@import './utils/utils.scss';
+@import './utils/hovers.scss';

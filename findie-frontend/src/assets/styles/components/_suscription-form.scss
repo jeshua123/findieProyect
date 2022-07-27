@@ -1,0 +1,113 @@
+//Client form
+.client-form-radio {
+  & input[type='radio']:after {
+    width: 20px;
+    height: 21px;
+    border-radius: 15px;
+    top: 10px;
+    left: -1px;
+    position: relative;
+    background-color: var(--sea-blue);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+  }
+  & input[type='radio']:checked::before {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    top: 10.5px;
+    left: 0px;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--sea-blue);
+    z-index: 100;
+  }
+  & input[type='radio']:checked:after {
+    width: 20px;
+    height: 21px;
+    border-radius: 15px;
+    top: -15px;
+    left: -1px;
+    position: relative;
+    background-color: var(--orange);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid var(--orange);
+  }
+}
+
+.orange-placeholder::placeholder {
+  color: var(--orange);
+}
+
+.white-placeholder::placeholder {
+  color: var(--white);
+}
+
+.black-placeholder::placeholder {
+  color: var(--black);
+}
+
+.client-error-validation {
+  border-top: 1.5px solid var(--white) !important;
+  border-left: 1.5px solid var(--white) !important;
+  border-right: 1.5px solid var(--white) !important;
+  border-bottom: 1.5px solid var(--red) !important;
+}
+
+.freelancer-error-validation {
+  border-top: 1.5px solid var(--orange) !important;
+  border-left: 1.5px solid var(--orange) !important;
+  border-right: 1.5px solid var(--orange) !important;
+  border-bottom: 1.5px solid var(--red) !important;
+}
+
+.client-success-validation {
+  border-top: 1px solid var(--white) !important;
+  border-left: 1px solid var(--white) !important;
+  border-right: 1px solid var(--white) !important;
+  border-bottom: 1px solid var(--soft-green) !important;
+}
+
+.freelancer-success-validation {
+  border-top: 1px solid var(--orange) !important;
+  border-left: 1px solid var(--orange) !important;
+  border-right: 1px solid var(--orange) !important;
+  border-bottom: 1px solid var(--soft-green) !important;
+}
+
+@mixin autofill-color($color) {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    transition: background-color 5000s;
+    -webkit-text-fill-color: $color !important;
+  }
+}
+
+.autofill-color-white {
+  @include autofill-color(#ffffff)
+}
+
+.autofill-color-black {
+  @include autofill-color(#000000)
+}
+
+.freelancer-border-step {
+border: 17px solid transparent;
+border-image: linear-gradient(180deg, #FFE0C1 0%, #FFA51F 100%) 4;
+}
+
+.client-border-step {
+  border: 17px solid transparent;
+  border-image: linear-gradient(180deg, #73ACD4 0%, #00638D 100%) 4;
+}
+
+

@@ -1,0 +1,571 @@
+ * {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+a {
+  color: var(--black);
+}
+
+.h1-plus {
+    font-family: 'SharpGroteskMedium22';
+    font-size: 90px;
+    line-height: 80px;
+
+    @media screen and (max-width: 800px) {
+        font-size: 85px;
+        line-height: 90px;
+    }
+
+    @media screen and (max-width: 430px) {
+        font-size: 75px;
+        line-height: 50px;
+    }
+}
+
+h1, .h1 {
+  font-family: 'SharpGroteskMedium22';
+  font-size: 56px;
+  line-height: 80px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
+
+h2 {
+  font-family: 'WorkSans-Light';
+  font-size: 40px;
+  line-height: 50px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+h3, .h3 {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 30px;
+  line-height: 25px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 32px;
+    line-height: 25px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+
+.h3-book {
+  font-family: 'SharpGroteskBook20';
+  font-size: 30px;
+  line-height: 25px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 32px;
+    line-height: 25px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+
+h4 {
+  font-family: 'WorkSans-Light';
+  font-size: 35px;
+  line-height: 45px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+    @media screen and (max-width: 430px) {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+h5 {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 21px;
+  line-height: 32px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.h5-22 {
+  font-family: 'SharpGroteskMedium22';
+  font-size: 21px;
+  line-height: 32px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.subtitle1-medium {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 21px;
+  line-height: 24px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.subtitle2-bold {
+  font-family: 'WorkSans-Bold';
+  font-size: 21px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.subtitle2-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 21px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.subtitle3-22 {
+  font-family: 'SharpGroteskMedium22';
+  font-size: 16px;
+  line-height: 24px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+.subtitle3-20 {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 16px;
+  line-height: 24px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+.subtitle4-bold {
+  font-family: 'WorkSans-Bold';
+  font-size: 18px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.subtitle4-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 18px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.subtitle4-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 18px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.subtitle5-regular {
+  font-family: 'SharpGroteskBook20';
+  font-size: 14px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+.subtitle5-medium {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 14px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+.subtitle6-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 16px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.subtitle6-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 16px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.body1-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 21px;
+  line-height: 38px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 19px;
+    line-height: 33px;
+  }
+}
+
+.body1-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 21px;
+  line-height: 38px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 19px;
+    line-height: 33px;
+  }
+}
+
+.body2-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 14px;
+  line-height: 22px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+.body1-regular,
+.body1-regular::placeholder,
+.body1-regular option {
+  font-family: 'WorkSans-Regular';
+  font-size: 28px;
+  line-height: 22px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.body2-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 14px;
+  line-height: 22px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+.buttontext1-semibold {
+  font-family: 'WorkSans-SemiBold';
+  font-size: 18px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+.buttontext1-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 18px;
+  line-height: 24px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+.buttontext2-semibold {
+  font-family: 'WorkSans-SemiBold' !important ;
+  font-size: 14px !important ;
+  line-height: 24px !important ;
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px !important ;
+    line-height: 24px !important ;
+  }
+}
+
+.buttontext2-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 14px;
+  line-height: 24px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.buttontext2-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 14px;
+  line-height: 24px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.buttontext3-bold {
+  font-family: 'WorkSans-Bold';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 14.4px;
+    line-height: 24px;
+  }
+}
+
+.buttontext4-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.buttontext4-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.formtext1-regular {
+  font-family: 'WorkSans-regular';
+  font-size: 25px;
+  line-height: 50px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+.formtext1-medium {
+  font-family: 'WorkSans-Medium';
+  font-size: 25px;
+  line-height: 50px;
+
+  @media screen and (max-width: 430px) {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+.formtext2-regular {
+  font-family: 'WorkSans-Regular';
+  font-size: 23px;
+  line-height: 40px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.formtext3-medium {
+  font-family: 'SharpGroteskMedium20';
+  font-size: 38px;
+  line-height: 40px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.microcopy {
+  font-family: 'WorkSans-Regular';
+  font-size: 12.6px;
+  line-height: 24px;
+}
+.microcopy2 {
+  font-family: 'WorkSans-Regular';
+  font-size: 14px;
+  line-height: 24px;
+}
+
+// Font families
+.sg-family-medium {
+  font-family: 'SharpGroteskMedium22' !important;
+}
+
+.sg-family-regular {
+  font-family: 'SharpGroteskBook20' !important;
+}
+
+.sg-family-regular {
+  font-family: 'SharpGroteskBook20' !important;
+}
+
+.ws-family-bold {
+  font-family: 'WorkSans-Bold' !important;
+}
+
+.ws-family-medium {
+  font-family: 'WorkSans-Medium' !important;
+}
+
+.ws-family-regular {
+  font-family: 'WorkSans-Regular' !important;
+}
+
+//Font stiles
+.italic-font {
+  font-style: italic !important;
+}

@@ -1,0 +1,58 @@
+@mixin web-bg-color($color) {
+    background-color: $color !important;
+    transition: all 0.8s;
+}
+
+.web-bg {
+    &-white {
+        @include web-bg-color(var(--white));
+    }
+
+    &-black {
+        @include web-bg-color(var(--black));
+    }
+
+    &-sea-blue {
+        @include web-bg-color(var(--sea-blue));
+    }
+    &-duo-2 {
+        @include web-bg-color(var(--duo-2));
+    }
+
+    &-sea-blue-096 {
+        @include web-bg-color(var(--sea-blue-096));
+    }
+
+    &-rose {
+        @include web-bg-color(var(--rose));
+    }
+
+    &-soft-blue {
+        @include web-bg-color(var(--soft-blue));
+    }
+
+     &-light-gray {
+        @include web-bg-color(var(--light-gray));
+    }
+
+    &-light-orange {
+        @include web-bg-color(var(--light-orange));
+    }
+}
+
+.web-site-grid {
+    display: grid;
+    grid-template-columns: 17% 1fr 17%;
+}
+
+@media screen and (max-width: 800px) {
+    .web-site-grid {
+        grid-template-columns: 0 1fr 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .web-site-grid {
+        grid-template-columns: 0 1fr 0;
+    }
+}

@@ -1,0 +1,95 @@
+.home-degrade {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 800px;
+    background-image: url("../../images/web/home-page/intro-desktop.png");
+
+    @include breakpoint(tablet) {
+        background-position: right 50%;
+        height: 800px;
+        background-image: url("../../images/web/home-page/intro-tablet.png");
+    }
+
+
+    @include breakpoint(mobile) {
+        background-position: right 97%;
+        height: 450px;
+        background-image: url("../../images/web/home-page/intro-mobile.png");
+    }
+}
+
+.about-us-degrade {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 800px;
+    background-image: url("../../images/web/about-us/intro-desktop.png");
+
+    @include breakpoint(tablet) {
+        background-position: right 50%;
+        height: 800px;
+        background-image: url("../../images/web/about-us/intro-tablet.png");
+    }
+
+    @include breakpoint(mobile) {
+        background-position: right 65%;
+        height: 450px;
+        background-image: url("../../images/web/about-us/intro-mobile.png");
+    }
+}
+
+.how-works-degrade {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 800px;
+    background-image: url("../../images/web/how-works/intro-desktop.png");
+
+    @include breakpoint(tablet) {
+        background-position: right 50%;
+        height: 800px;
+        background-image: url("../../images/web/how-works/intro-tablet.png");
+    }
+
+    @include breakpoint(mobile) {
+        background-position: right 48%;
+        height: 450px;
+        background-image: url("../../images/web/how-works/intro-mobile.png");
+    }
+}
+
+.freelancers-degrade {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 800px;
+    background-image: url("../../images/web/freelancers/intro-desktop.png");
+
+    @include breakpoint(tablet) {
+        background-position: right 50%;
+        height: 800px;
+        background-image: url("../../images/web/freelancers/intro-tablet.png");
+    }
+
+    @include breakpoint(mobile) {
+        background-position: right 65%;
+        height: 450px;
+        background-image: url("../../images/web/freelancers/intro-mobile.png");
+    }
+}
+
+.clients-degrade {
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 800px;
+    background-image: url("../../images/web/clients/intro-desktop.png");
+
+    @include breakpoint(tablet) {
+        background-position: 80% 40%;
+        height: 800px;
+        background-image: url("../../images/web/clients/intro-tablet.png");
+    }
+
+    @include breakpoint(mobile) {
+        background-position: 23% 80%;
+        height: 450px;
+        background-image: url("../../images/web/clients/intro-mobile.png");
+    }
+}

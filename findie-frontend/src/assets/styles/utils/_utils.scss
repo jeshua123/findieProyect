@@ -1,0 +1,51 @@
+.no-focus {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.no-height {
+    height: unset !important;
+}
+
+.total-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.transform-270deg {
+    transform: rotate(270deg);
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.slider-item {
+    flex: none;
+    scroll-snap-align: center;
+}
+
+.hide-scroll-bar {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.h-600-to-unset {
+  height: 600px;
+  @include breakpoint(mobile) {
+    height: unset;
+  }
+}
+
+
+
+
+
+

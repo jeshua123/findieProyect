@@ -1,0 +1,125 @@
+@mixin bg-color($color) {
+  background-color: $color !important;
+}
+
+.bg {
+    &-gray {
+        @include bg-color(var(--gray));
+    }
+
+    &-gray-026 {
+        @include bg-color(var(--gray-026));
+    }
+
+    &-white {
+        @include bg-color(var(--white));
+    }
+
+    &-black {
+        @include bg-color(var(--black));
+    }
+
+    &-light-black {
+        @include bg-color(var(--light-black));
+    }
+
+    &-yellow {
+        @include bg-color(var(--yellow));
+    }
+
+    &-orange {
+        @include bg-color(var(--orange));
+    }
+
+     &-soft-orange {
+        @include bg-color(var(--soft-orange));
+    }
+
+      &-rose {
+        @include bg-color(var(--rose));
+    }
+
+    &-strong-rose {
+        @include bg-color(var(--strong-rose));
+    }
+
+    &-soft-green {
+        @include bg-color(var(--soft-green));
+    }
+
+    &-black-008 {
+        @include bg-color(var(--black-008));
+    }
+
+    &-black-005 {
+        @include bg-color(var(--black-005));
+    }
+
+    &-red {
+        @include bg-color(var(--red));
+    }
+
+    &-red-005 {
+        @include bg-color(var(--red-005));
+    }
+
+    &-ice-blue {
+        @include bg-color(var(--ice-blue));
+    }
+
+    &-light-orange {
+        @include bg-color(var(--light-orange));
+    }
+
+    &-light-orange2 {
+        @include bg-color(var(--light-orange2));
+    }
+
+    &-soft-blue {
+        @include bg-color(var(--soft-blue));
+    }
+
+    &-blue {
+        @include bg-color(var(--blue));
+    }
+
+    &-blue-005 {
+        @include bg-color(var(--blue-005));
+    }
+
+    &-sky-blue-03 {
+        @include bg-color(var(--sky-blue-03));
+    }
+
+    &-sky-blue {
+        @include bg-color(var(--sky-blue));
+    }
+
+    &-light-blue {
+        @include bg-color(var(--light-blue));
+    }
+
+    &-light-blue-03 {
+        @include bg-color(var(--light-blue-03));
+    }
+
+    &-sea-blue {
+        @include bg-color(var(--sea-blue));
+    }
+
+    &-sea-blue-096 {
+        @include bg-color(var(--sea-blue-096));
+    }
+
+    &-light-gray {
+        @include bg-color(var(--light-gray));
+    }
+
+    &-white-gray {
+        @include bg-color(var(--white-gray));
+    }
+
+    &-white-04 {
+        @include bg-color(var(--white-04));
+    }
+}

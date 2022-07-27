@@ -1,0 +1,196 @@
+@mixin degrade-structure {
+   height: 116px;
+   transition: all .4s;
+   background-repeat: no-repeat;
+   background-size: contain;
+
+    @include breakpoint(mobile) {
+      height: 59px;
+    }
+}
+
+.freelancer-degrade-1 {
+   background-image: url("../../images/web/freelancers/shape-desktop-1.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-1.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-1.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-1.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-1.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-1.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.freelancer-degrade-2 {
+   background-image: url("../../images/web/freelancers/shape-desktop-2.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-2.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-2.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-2.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-2.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-2.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.freelancer-degrade-3 {
+   background-image: url("../../images/web/freelancers/shape-desktop-3.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-3.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-3.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-3.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-3.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-3.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.freelancer-degrade-4 {
+   background-image: url("../../images/web/freelancers/shape-desktop-4.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-4.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-4.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-4.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-4.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-4.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.freelancer-degrade-5 {
+   background-image: url("../../images/web/freelancers/shape-desktop-5.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-5.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-5.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-5.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-5.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-5.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.freelancer-degrade-6 {
+   background-image: url("../../images/web/freelancers/shape-desktop-6.svg");
+    &:hover {
+      background-image: url("../../images/web/freelancers/degrade-desktop-6.svg");
+      transition: all .4s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/freelancers/shape-tablet-6.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-tablet-6.svg");
+        transition: all .4s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/freelancers/shape-mobile-6.svg");
+      &:hover {
+        background-image: url("../../images/web/freelancers/degrade-mobile-6.svg");
+        transition: all .4s;
+      }
+    }
+    @include degrade-structure
+}
+
+.award-happy-guy {
+  content: url("../../images/web/freelancers/happy-guy-desktop.png");
+
+  @include breakpoint(tablet) {
+    content: url("../../images/web/freelancers/happy-guy-tablet.png");
+  }
+
+   @include breakpoint(mobile) {
+    content: url("../../images/web/freelancers/happy-guy-mobile.png");
+  }
+}
+
+.award-percentage {
+  content: url("../../images/web/freelancers/percentage-desktop.png");
+
+  @include breakpoint(tablet) {
+    content: url("../../images/web/freelancers/percentage-tablet.png");
+  }
+
+   @include breakpoint(mobile) {
+    content: url("../../images/web/freelancers/percentage-mobile.png");
+  }
+}
+
+.award-arrow {
+  content: url("../../images/web/freelancers/arrow-desktop.png");
+
+  @include breakpoint(tablet) {
+    content: url("../../images/web/freelancers/arrow-tablet.png");
+  }
+
+   @include breakpoint(mobile) {
+    content: url("../../images/web/freelancers/arrow-mobile.png");
+  }
+}

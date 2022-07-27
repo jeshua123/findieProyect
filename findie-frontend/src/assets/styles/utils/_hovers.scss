@@ -1,0 +1,41 @@
+.hover\:bg-strong-rose {
+  &:hover {
+    background-color: var(--strong-rose) !important;
+  }
+}
+
+.hover\:text-blue {
+  &:hover {
+    color: var(--blue) !important;
+  }
+}
+
+.hover\:italic-style {
+  &:hover {
+    font-style: italic;
+  }
+}
+
+.hover\:bg-ice-blue {
+  &:hover {
+    background-color: var(--ice-blue) !important;
+  }
+}
+
+.hover\:border-b-black {
+  &:hover {
+    border-bottom: 1px solid var(--black) !important;
+  }
+}
+
+.hover\:spiner {
+  &:hover {
+    div {
+      div {
+        img {
+          animation: spin 1s linear infinite;
+        }
+      }
+    }
+  }
+}

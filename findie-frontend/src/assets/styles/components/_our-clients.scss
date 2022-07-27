@@ -1,0 +1,115 @@
+@mixin degrade-structure {
+   height: 116px;
+   transition: all .8s;
+   background-repeat: no-repeat;
+   background-size: contain; 
+
+    @include breakpoint(mobile) {
+      height: 58px;
+    }
+}
+
+.client-degrade-1 {
+   background-image: url("../../images/web/clients/shape-desktop-1.svg");
+    &:hover {
+      background-image: url("../../images/web/clients/degrade-desktop-1.svg");
+      transition: all .8s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/clients/shape-tablet-1.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-tablet-1.svg");
+        transition: all .8s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/clients/shape-mobile-1.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-mobile-1.svg");
+        transition: all .8s;
+      }
+    }
+    @include degrade-structure
+}
+
+.client-degrade-2 {
+   background-image: url("../../images/web/clients/shape-desktop-2.svg");
+    &:hover {
+      background-image: url("../../images/web/clients/degrade-desktop-2.svg");
+      transition: all .8s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/clients/shape-tablet-2.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-tablet-2.svg");
+        transition: all .8s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/clients/shape-mobile-2.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-mobile-2.svg");
+        transition: all .8s;
+      }
+    }
+    @include degrade-structure
+}
+
+.client-degrade-3 {
+   background-image: url("../../images/web/clients/shape-desktop-3.svg");
+    &:hover {
+      background-image: url("../../images/web/clients/degrade-desktop-3.svg");
+      transition: all .8s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/clients/shape-tablet-3.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-tablet-3.svg");
+        transition: all .8s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/clients/shape-mobile-3.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-mobile-3.svg");
+        transition: all .8s;
+      }
+    }
+    @include degrade-structure
+}
+
+.client-degrade-4 {
+   background-image: url("../../images/web/clients/shape-desktop-4.svg");
+    &:hover {
+      background-image: url("../../images/web/clients/degrade-desktop-4.svg");
+      transition: all .8s;
+    }
+
+    @include breakpoint(tablet) {
+      background-image: url("../../images/web/clients/shape-tablet-4.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-tablet-4.svg");
+        transition: all .8s;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url("../../images/web/clients/shape-mobile-4.svg");
+      &:hover {
+        background-image: url("../../images/web/clients/degrade-mobile-4.svg");
+        transition: all .8s;
+      }
+    }
+    @include degrade-structure
+}
+
+.prices-grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 25%);
+}

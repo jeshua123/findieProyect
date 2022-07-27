@@ -1,0 +1,33 @@
+@mixin svg-color($color) {
+  fill: $color;
+  & path {
+    fill: $color;
+  }
+}
+
+.svg {
+  &-black {
+    @include svg-color(var(--black));
+  }
+  &-white {
+    @include svg-color(var(--white));
+  }
+  &-orange {
+    @include svg-color(var(--orange));
+  }
+  &-red {
+    @include svg-color(var(--red));
+  }
+  &-gray {
+    @include svg-color(var(--gray));
+  }
+  &-light-gray {
+    @include svg-color(var(--light-gray));
+  }
+  &-soft-gray {
+    @include svg-color(var(--soft-gray));
+  }
+  &-transparent {
+    @include svg-color(var(transparent));
+  }
+}
